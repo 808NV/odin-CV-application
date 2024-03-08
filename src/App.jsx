@@ -44,13 +44,17 @@ function App() {
           setStorePersonal,
         }}
       >
-        <Personal />
-        <Education />
-        <Experience />
+         <div className="top-content">
+          <Personal />
+          <Education />
+          <Experience />
+        </div>
         <button className="download" onClick={downloadPdf}>
           Download as PDF
         </button>
-        <Pdf />
+        <div className="pdf-wrapper">
+          <Pdf />
+        </div>
       </context.Provider>
     </div>
   );
