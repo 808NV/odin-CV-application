@@ -1,0 +1,131 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+  background-color: black;
+  color: #fff;
+}
+
+.title {
+  font-size: 30px;
+  padding: 1rem;
+}
+
+.personal,
+.education > .modal,
+.experience > .modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.personal > div > input,
+.education > .modal > div > input,
+.experience > .modal > div > input {
+  margin-top: 0.5rem;
+  padding: 0.4rem;
+  width: 12rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.add {
+  padding: 0.5rem 0.8rem;
+  background-color: transparent;
+  color: black;
+  font-size: 30px;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.experience,
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.submit {
+  margin-top: 1.8rem;
+  padding: 0.4rem;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: -1rem;
+}
+
+.submit:hover {
+  transition: 0.2s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.education,
+.experience,
+.personal {
+  border-bottom: 1px solid black;
+}
+
+/*** pdf styles *****/
+
+.pdf {
+  height: 1123px;
+  width: 794px;
+  margin-left: 15rem;
+}
+.heading {
+  background-color: rgb(30, 30, 50);
+  color: #fff;
+}
+
+.heading > h2 {
+  font-size: 2rem;
+}
+
+.contact {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+svg {
+  margin-right: 0.4rem;
+}
+
+.header {
+  padding: 1rem;
+  background-color: rgba(240, 248, 255, 0.407);
+}
+
+.edu,
+.exp {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.download {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  margin: 2rem;
+  cursor: pointer;
+}
+
+.download:hover {
+  transition: 0.5s ease-in-out;
+  background-color: #fff;
+  color: rgb(255, 0, 0);
+}
