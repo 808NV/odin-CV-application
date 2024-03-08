@@ -40,7 +40,7 @@ export default function Personal() {
       </div>
 
       <div>
-        <label htmlFor="Email">Name</label>
+        <label htmlFor="Email">Email</label>
         <input
           type="email"
           placeholder="Your Email"
