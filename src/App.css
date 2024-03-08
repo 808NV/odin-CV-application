@@ -142,4 +142,14 @@ svg {
     gap: 1rem;
     padding: 4rem;
   }
+  .input-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  .button-wrapper {
+    display: flex;
+  }
 }
