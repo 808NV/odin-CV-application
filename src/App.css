@@ -129,3 +129,17 @@ svg {
   background-color: #fff;
   color: rgb(255, 0, 0);
 }
+
+/*** adding responsiveness ***/
+@media (min-height: 700px) {
+  .personal,
+  .education > .modal,
+  .experience > .modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 4rem;
+  }
+}
