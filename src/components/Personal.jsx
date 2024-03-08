@@ -17,7 +17,7 @@ export default function Personal() {
     <div className="personal">
       <h3>Personal Information</h3>
 
-      <div>
+      <div className="input-wrapper">
         <label htmlFor="name">Name</label>
         <input
           type="text"
@@ -27,7 +27,7 @@ export default function Personal() {
         />
       </div>
 
-      <div>
+      <div className="input-wrapper">
         <label htmlFor="Address">Address</label>
         <input
           type="text"
@@ -39,7 +39,7 @@ export default function Personal() {
         />
       </div>
 
-      <div>
+      <div className="input-wrapper">
         <label htmlFor="Email">Email</label>
         <input
           type="email"
@@ -49,8 +49,8 @@ export default function Personal() {
         />
       </div>
 
-      <div>
-        <label htmlFor="name">Phone Number</label>
+      <div className="input-wrapper">
+        <label htmlFor="name">Number</label>
         <input
           type="text"
           placeholder="Your Phone Number"
